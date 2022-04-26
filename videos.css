@@ -1,0 +1,63 @@
+
+body{
+    border: 1px solid gold;
+    background-image: url('_img/mirage.jpg');
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px black;
+    height: 100%;
+   }
+
+   div#ytb{
+    border: 5px solid #ddd;
+    width: 90%;
+    height: 80%;
+    padding: 15px;
+    
+   }
+
+
+
+   NAV#menu{
+    float:right;
+    text-transform: uppercase;
+    box-shadow: black; 
+    border: 3px solid ;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+  
+}
+NAV#menu ul{
+    display: inline-block;
+    background-color:white;
+    padding: 10px;
+    margin:2px;
+    transition: background-color 1s;
+    color:red;
+    text-decoration: underline red;
+    
+    
+}
+NAV#menu a {
+    color:black;
+    text-decoration: none;
+
+}
+
+
+footer#rodape{
+    float:left;
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align:center;
+    width:100%;
+}
+
+
+iframe#v1{
+    float: left;
+
+}
